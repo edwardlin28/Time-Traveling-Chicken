@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/srcipt/predator_script.cs">
+    <Files>
+      <File FileName="Assets/srcipt/camera_script.cs" Line="24" Column="28" />
+      <File FileName="Assets/srcipt/bird_control_script.cs" Line="37" Column="29" />
+      <File FileName="Assets/srcipt/pokeball_script.cs" Line="15" Column="1" />
+      <File FileName="Assets/srcipt/predator_script.cs" Line="19" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
