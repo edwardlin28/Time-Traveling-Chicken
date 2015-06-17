@@ -11,7 +11,7 @@ public class bird_control_script : MonoBehaviour {
 	public bool move = false;
 	public bool changetime = true;
 	int time = 0;
-
+	//int timeTrack = 0;
 	
 	Animator anim;
 
@@ -21,20 +21,23 @@ public class bird_control_script : MonoBehaviour {
 	}
 	
 	void Update()
-	{
+	{   /// track the position of bird while it is alive
+
+
 		/// change time
 		/// 
 		/// 
 		if (Input.GetKey (KeyCode.Q)) {
+			///time
 			if(changetime){	
-				if(time < 100)
+				if(time < 200)
 				{
 					transform.Translate(20f,0,0);
 					time += 100;
 				}
 				else{
 					time = 0;
-					transform.Translate(-20f,0,0);
+					transform.Translate(-40f,0,0);
 					
 				}
 				
@@ -71,6 +74,8 @@ public class bird_control_script : MonoBehaviour {
 		anim.SetBool("movingDown",false);
 		rigidbody2D.velocity = new Vector2 (0,0);
 		
+		Debug.Log ("xx= "+ transform.position.x);
+		Debug.Log ("y= "+ transform.position.x);
 
 		if (Mathf.Abs (movex) > 0.1 || Mathf.Abs (movey) > 0.1 ) {
 				//if(Mathf.Abs (movex) < 0.862)
@@ -85,7 +90,7 @@ public class bird_control_script : MonoBehaviour {
 				move = false;
 				anim.SetBool ("move", false);
 			}
-			//Debug.Log ("move = " + move);
+
 			
 			if (move == true) {
 				if (Mathf.Abs (movex) > 0.1) {
@@ -103,7 +108,7 @@ public class bird_control_script : MonoBehaviour {
 						anim.SetBool ("movingDown", false);
 					}
 					rigidbody2D.velocity = new Vector2 (movex * maxSpeed, rigidbody2D.velocity.y);
-					//	rigidbody2D.velocity = new Vector2 (8.62f, rigidbody2D.velocity.y);
+				//rigidbody2D.AddForce( new Vector2 (100f, 0));
 				} else {
 					
 					if (Mathf.Abs (movey) > 0.1) {

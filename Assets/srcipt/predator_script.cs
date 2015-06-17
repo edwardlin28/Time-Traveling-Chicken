@@ -16,7 +16,10 @@ public class predator_script : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Player")
-			Application.LoadLevel("fail");
+						//Destroy (other.gameObject);
+			Application.LoadLevel (Application.loadedLevelName);
+
+
 		
 	}
 }
