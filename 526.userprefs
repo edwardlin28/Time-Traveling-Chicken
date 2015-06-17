@@ -1,14 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/srcipt/key_script.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/srcipt/pokeball_script.cs">
     <Files>
       <File FileName="Assets/srcipt/bird_control_script.cs" Line="18" Column="24" />
-      <File FileName="Assets/srcipt/bird_control_new.cs" Line="71" Column="1" />
+      <File FileName="Assets/srcipt/bird_control_new.cs" Line="1" Column="1" />
       <File FileName="Assets/srcipt/key_script.cs" Line="25" Column="6" />
-      <File FileName="Assets/srcipt/gate_script.cs" Line="19" Column="1" />
-      <File FileName="Assets/srcipt/star_script.cs" Line="20" Column="4" />
+      <File FileName="Assets/srcipt/gate_script.cs" Line="1" Column="1" />
+      <File FileName="Assets/srcipt/star_script.cs" Line="16" Column="1" />
       <File FileName="Assets/srcipt/predator_moving.cs" Line="49" Column="3" />
-      <File FileName="Assets/srcipt/predator_script.cs" Line="16" Column="1" />
+      <File FileName="Assets/srcipt/predator_script.cs" Line="20" Column="15" />
+      <File FileName="Assets/srcipt/fire_script.cs" Line="20" Column="38" />
+      <File FileName="Assets/srcipt/rock_script.cs" Line="14" Column="70" />
+      <File FileName="Assets/srcipt/pokeball_script.cs" Line="19" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
